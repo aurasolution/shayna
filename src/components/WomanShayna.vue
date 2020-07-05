@@ -83,7 +83,7 @@ export default {
   },
   mounted() {
     axios
-      .get("http://shayna-backend.buildwithangga.id/api/products")
+      .get("https://shayna-backend.buildwithangga.id/api/products")
       .then((res) => (this.products = res.data.data.data))
       // eslint-disable-next-line no-console
       .catch((err) => console.log(err));
