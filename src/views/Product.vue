@@ -149,7 +149,7 @@ export default {
       }
     }
     axios
-      .get("http://shayna-backend.buildwithangga.id/api/products", {
+      .get("https://shayna-backend.buildwithangga.id/api/products", {
         params: {
           id: this.$route.params.id,
         },
