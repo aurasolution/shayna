@@ -110,6 +110,6 @@ export default {
   margin-right: 25px;
 }
 .pi-pic img {
-  height: 450px;
+  height: 370px;
 }
 </style>
